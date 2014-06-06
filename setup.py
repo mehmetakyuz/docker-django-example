@@ -12,4 +12,5 @@ setup(
         'django',
     ],
     scripts=['manage.py'],
+    include_package_data=True,
 )
